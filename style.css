@@ -202,7 +202,7 @@ nav {
 }
 .s1text span {
     font-size: 35px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     color: #D1D1D1;
 }
 
@@ -220,4 +220,11 @@ nav {
 .s1text hr {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/* fine sezione1  */
+
+.column {
+    float: left;
+    width: calc(100% / 3 );
 }
