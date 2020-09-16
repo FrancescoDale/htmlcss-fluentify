@@ -254,3 +254,20 @@ nav {
     color: #828282;
     font-weight: 200;
 }
+
+/* fine sezione2 */
+
+.section3 {
+    padding: 100px;
+    background-color: #011B50;
+}
+
+.s3text {
+    float: left;
+    width: 50%;
+}
+
+.s3image {
+    float: right;
+    width: 50%;
+}
