@@ -185,7 +185,7 @@ nav {
 /* fine header */
 
 .section1 {
-    margin-top: 100px;
+    padding: 100px;
 }
 .s1imagebox {
     width: 50%;
@@ -215,6 +215,7 @@ nav {
 .s1text p {
     color: #888888;
     font-size: 18px;
+    line-height: 1.5;
 }
 
 .s1text hr {
@@ -227,4 +228,11 @@ nav {
 .column {
     float: left;
     width: calc(100% / 3 );
+}
+
+.section2 h1 {
+    color: #727272;
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
 }
