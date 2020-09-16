@@ -184,6 +184,40 @@ nav {
 
 /* fine header */
 
+.section1 {
+    margin-top: 100px;
+}
 .s1imagebox {
+    width: 50%;
     float: left;
+}
+
+.s1text {
+    width: 50%;
+    float: right;
+}
+
+.s1text .highlighter {
+    color: #65DE82;
+}
+.s1text span {
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: #D1D1D1;
+}
+
+.s1text h2 {
+    color: #011B50;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.s1text p {
+    color: #888888;
+    font-size: 18px;
+}
+
+.s1text hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
