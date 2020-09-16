@@ -271,3 +271,18 @@ nav {
     float: right;
     width: 50%;
 }
+
+.section3 h2 {
+    font-size: 36px;
+}
+
+.section3 a {
+    color: lightgreen;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section3 h2, p {
+    color: white;
+    margin-bottom: 30px
+}
