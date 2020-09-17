@@ -184,7 +184,7 @@ nav {
 
 /* fine header */
 
-.section1 {
+.remote_learning {
     padding: 100px;
 }
 .s1imagebox {
@@ -225,9 +225,10 @@ nav {
 
 /* fine sezione1  */
 
-.section2 {
+.no_installation {
     padding: 100px;
 }
+
 .column {
     float: left;
     text-align: center;
@@ -257,7 +258,7 @@ nav {
 
 /* fine sezione2 */
 
-.section3 {
+.mobile-app {
     padding-top: 50px;
     background-color: #011B50;
 }
@@ -273,24 +274,24 @@ nav {
     display: block;
 }
 
-.section3 h2 {
+.mobile-app h2 {
     font-size: 36px;
 }
 
-.section3 a {
+.mobile-app a {
     color: lightgreen;
     font-size: 18px;
     font-weight: bold;
 }
 
-.section3 h2, p {
+.mobile-app h2, p {
     color: white;
     margin-bottom: 30px
 }
 
-/* inizio sezione 4 */
+/* inizio safe-platform */
 
-.section4 {
+.safe-platform {
     padding: 50px;
     background-color: #FFFFFF;
 }
@@ -315,15 +316,15 @@ nav {
     font-weight: 200;
 }
 
-/* fine sezione 4 */
+/* fine safe-platform */
 /*inizio ultima sezione */
 
-.section5 {
+.study-plan {
     padding: 50px;
     background-color: #2A4781;
 }
 
-.section5 .box1, .box2 {
+.study-plan .box1, .box2 {
     color: #FFF;
 }
 
@@ -397,8 +398,7 @@ nav {
 .footer-column {
     color: white;
     text-decoration: none;
-    padding-bottom: 20px;
-    /*height: 100px;*/
+    margin-bottom: 40px;
 }
 
 
@@ -432,8 +432,5 @@ nav {
 }
 
 .right-bottom {
-    /* position: absolute;
-    bottom: -150px;
-    */
     width: 100%;
 }
