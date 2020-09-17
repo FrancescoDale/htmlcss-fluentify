@@ -258,7 +258,7 @@ nav {
 /* fine sezione2 */
 
 .section3 {
-    padding-top: 100px;
+    padding-top: 50px;
     background-color: #011B50;
 }
 
@@ -319,10 +319,61 @@ nav {
 /*inizio ultima sezione */
 
 .section5 {
-    padding: 25px;
+    padding: 50px;
     background-color: #2A4781;
 }
 
 .section5 .box1, .box2 {
     color: #FFF;
+}
+
+.box1 {
+    float: left;
+    width: 50%;
+    padding-right: 25px;
+}
+
+.box2 {
+    float: right;
+    width: 50%;
+}
+.box1 p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* fine sezione 5 */
+
+.footer-container {
+    width: 100%;
+    padding: 25px 125px;
+    background-color: #001A4F;
+}
+
+.footer-container {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.footer-left, .footer-right {
+    color: #FFF;
+}
+.footer-left {
+    float: left;
+    width: 18%;
+    line-height: 1.5;
+}
+.footer-left .logo {
+    padding-bottom: 20px;
+}
+
+.footer-left .logo a {
+    text-decoration: none;
+    color: lightgreen;
+}
+
+.footer-right {
+    float: right;
+    width: 82%;
 }
