@@ -378,7 +378,7 @@ nav {
 }
 
 .footer-icons {
-    display: inline-block;
+    margin-top: 20px;
     color: #64DE82;
 
 }
@@ -386,8 +386,8 @@ nav {
 .footer-right {
     float: right;
     width: 82%;
+    position: relative;
 }
-
 
 .footer-column {
     float: left;
@@ -398,15 +398,18 @@ nav {
     color: white;
     text-decoration: none;
     padding-bottom: 20px;
+    height: 100px;
 }
 
 
 .footer-column h4 {
     text-transform: capitalize;
+    line-height: 3;
 }
 
 .footer-column a {
-    line-height: 2;
+    line-height: 1.5;
+    font-weight: 200;
 }
 
 .footer-right hr  {
@@ -418,4 +421,14 @@ nav {
     text-decoration: none;
     color: white;
     padding-right: 10px;
+}
+
+.right-top {
+    width: 100%;
+}
+
+.right-bottom {
+    position: absolute;
+    bottom: -150px;
+    width: 100%;
 }
