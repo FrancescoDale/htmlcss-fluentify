@@ -350,13 +350,13 @@ nav {
     background-color: #001A4F;
 }
 
-.footer-container {
+.footer-container::after {
     content:"";
     display: table;
     clear: both;
 }
 
-.footer-left, .footer-right {
+.footer-left {
     color: #FFF;
 }
 .footer-left {
@@ -373,7 +373,49 @@ nav {
     color: lightgreen;
 }
 
+.footer-left img {
+    margin-bottom: 30px;
+}
+
+.footer-icons {
+    display: inline-block;
+    color: #64DE82;
+
+}
+
 .footer-right {
     float: right;
     width: 82%;
+}
+
+
+.footer-column {
+    float: left;
+    width: calc(100% / 6);
+}
+
+.footer-column {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+
+.footer-column h4 {
+    text-transform: capitalize;
+}
+
+.footer-column a {
+    line-height: 2;
+}
+
+.footer-right hr  {
+    border-style: 2px solid white;
+    margin-bottom: 20px;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
 }
