@@ -258,7 +258,7 @@ nav {
 /* fine sezione2 */
 
 .section3 {
-    padding: 100px;
+    padding-top: 100px;
     background-color: #011B50;
 }
 
@@ -270,6 +270,7 @@ nav {
 .s3image {
     float: right;
     width: 50%;
+    display: block;
 }
 
 .section3 h2 {
@@ -285,4 +286,43 @@ nav {
 .section3 h2, p {
     color: white;
     margin-bottom: 30px
+}
+
+/* inizio sezione 4 */
+
+.section4 {
+    padding: 50px;
+    background-color: #FFFFFF;
+}
+
+.s4text {
+    padding-top: 100px;
+    float: right;
+    width: 50%;
+}
+
+.s4image {
+    float: left;
+    width: 50%;
+}
+
+.s4text h2 {
+    color: #011B50;
+}
+.s4text p {
+    margin-top: 40px;
+    color: #828282;
+    font-weight: 200;
+}
+
+/* fine sezione 4 */
+/*inizio ultima sezione */
+
+.section5 {
+    padding: 25px;
+    background-color: #2A4781;
+}
+
+.section5 .box1, .box2 {
+    color: #FFF;
 }
